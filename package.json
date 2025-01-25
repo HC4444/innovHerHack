@@ -1,0 +1,23 @@
+{
+  "name": "innovherhack",
+  "version": "1.0.0",
+  "description": "This is a project for the 2025 InnovateHer hackathon",
+  "main": "next.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HC4444/innovHerHack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HC4444/innovHerHack/issues"
+  },
+  "homepage": "https://github.com/HC4444/innovHerHack#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

@@ -1,0 +1,20 @@
+How important are benefits like healthcare, wellness programs, or retirement plans?
+5
+
+How open are you to remote work?
+1
+
+How important is diversity within the workplace to you?
+5
+
+How often are you open to participating in business trips?
+5
+
+How comfortable are you in SQL?
+3
+
+How open are you to training interns on new roles?
+4
+
+How much leadership experience do you have?
+5

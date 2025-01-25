@@ -1,5 +1,3 @@
-
-
 // Import necessary modules
 const express = require('express');
 const fs = require('fs');
@@ -16,7 +14,7 @@ app.use(express.static('public'));
 
 // Route to read and serve the file content
 app.get('/file-content', (req, res) => {
-  const filePath = path.join(__dirname, 'example.txt'); // Replace with your file path
+  const filePath = path.join(__dirname, 'person1.txt'); // Replace with your file path
 
   // Read the file asynchronously
   fs.readFile(filePath, 'utf8', (err, data) => {
