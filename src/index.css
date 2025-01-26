@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@font-face {
+    font-family: "Monument";
+    src: url("/Monument.otf");
+}
+
+@font-face {
+    font-family: "Sofachrome";
+    src: url("/sofachrome.otf");
+}
+
+@font-face {
+    font-family: "Horizon";
+    src: url("/horizon.otf");
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}
+
+
+.outline div {
+    outline: 2px solid rgba(255, 255, 255, 0.7); /* White outline */
+}
+  
+
+.gradient {
+    background: linear-gradient(to right,
+            #03C652, #B8B5FF 35%, #03C652 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+#sphere {
+    width: 584.791px;
+    height: 578.318px;
+    transform: rotate(34.936deg);
+    flex-shrink: 0;
+    border-radius: 644.791px;
+    background: linear-gradient(203deg, #000 6.07%, #000 10.62%, #015624 44.19%, #03C652 84.88%);
+    margin-left: -300px;
+    z-index: 0;
+}
+
+.itemhead {
+    border-radius: 50px;
+    border: 1px solid #DAF7E6;
+    background: linear-gradient(142deg, rgba(190, 252, 215, 0.20) 9.69%, rgba(82, 252, 151, 0.10) 78.11%);
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.20);
+    backdrop-filter: blur(20px);
+}
+
+.eventbox {
+    border-radius: 50px;
+    border: 1px solid #DAF7E6;
+    background: linear-gradient(142deg, rgba(190, 252, 215, 0.20) 9.69%, rgba(82, 252, 151, 0.10) 78.11%);
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.20);
+    backdrop-filter: blur(20px);
+}
+
+.timebox {
+    border-radius: 50px;
+    border: 1px solid #DAF7E6;
+    background: linear-gradient(142deg, rgba(190, 252, 215, 0.20) 9.69%, rgba(82, 252, 151, 0.10) 78.11%);
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.20);
+    backdrop-filter: blur(20px);
+}
+
+.faqbox {
+    border-radius: 50px;
+    border: 1px #DAF7E6;
+    background: linear-gradient(142deg, rgba(190, 252, 215, 0.20)9.69%, rgba(82, 252, 151, 0.10)78.11%);
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.20);
+    backdrop-filter: blur(20px);
+}
+
+.profile-img {
+    transition: transform 0.3s ease;
+    transform: scale(1);
+    padding: 0.5rem;
+  }
+  
+  .profile-img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
