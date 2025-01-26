@@ -6,7 +6,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { useParams } from "react-router-dom";
 import DemoPage from './pages/demoPage.jsx'
 import './index.css'
-import Home from './Home.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
